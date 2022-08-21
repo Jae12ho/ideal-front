@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "ONE-Mobile-Title";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+button:active {
+    transform: translate(2px, 2px);
+    transition: all step-start 1s 0s;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+/* 로고, 이미지, 입력창, 결과창이 들어가는 박스 */
+.container {
+    width: 325px;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 45px;
+    border: 2px solid black;
+    box-shadow: 5px 6px 0px #000000;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* 위의 분홍색 바 */
+.title-bar {
+    box-sizing: border-box;
+    background-color: #F5BFBD;
+    border-bottom: 2px solid black;
+    padding: 0px 13px 0px 13px;
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.circle {
+    width: 13px;
+    height: 13px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin-right: 6px;
+}
+.red {
+    background-color: #F2554B;
+}
+.yellow {
+    background-color: #FFCB66;
+}
+.green {
+    background-color: #A4D374;
+}
+
+
+/* 로고, 하냥이 들어가는 부분 */
+.mainImage {
+    margin: 28px 0px 28px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 122px;
+    height: 51px;
+    margin-bottom: 15px;
+}
+.character {
+    width: 200px;
+    height: 120px;
+}
+
+
+/* 입력창 들어가는 부분 */
+.input-container {
+    padding: 0px 28px 0px 28px;
+}
+.input-title {
+    font-family: "ONE-Mobile-Title";
+    font-size: 10px;
+    color: #414141;
+    font-weight: 400;
+    line-height: 11px;
+    margin-top: 10px;
+}
+.input-tag {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: inset 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: "ONE-Mobile-Title";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+}
+.input-tag::placeholder {
+    color: #ABABAB;
+}
+.birth-container {
+    display: flex;
+}
+.birth-item {
+    margin-right: 9px;
+}
+.add-meaning-container {
+    display: flex;
+}
+.add-button {
+    width: 35px;
+    height: 35px;
+    background: #E3E3E3;
+    box-shadow: inset -3px -3px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 6px;
+}
+.cross {
+    position: relative;
+    background: #23B0B7;
+    width: 3px;
+    height: 12px;
+    left: 7px;
+}
+.cross:after {
+    position: absolute;
+    background: #23B0B7;
+    width: 11px;
+    height: 3px;
+    content: "";
+    left: -4px;
+    top: 4px;
+}
+.input-add-meaning {
+    margin-bottom: 4px;
+}
+.button-tag {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+
+    font-family: 'ONE-Mobile-Title';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+.mint {
+    background: #9CE3E4;
+}
+.purple {
+    background: #D7D2FF;
+}
+
+/* 결과 목록 들어가는 부분 */
+.result-title {
+    font-family: 'ONE-Mobile-Title';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #414141;
+    margin-bottom: 8px;
+}
+.result-item {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    padding: 0px 9px 0px 9px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    font-family: 'ONE-Mobile-Title';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+.button-copy {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-copy {
+    width: 15px;
+    height: 15px;
+}
+.button-container {
+    margin-top: 20px;
+    display: flex;
+}
+.button-retry {
+    box-sizing: border-box;
+    width: 46px;
+    height: 35px;
+    background: #FEF5B4;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.img-retry:hover {
+    transform: rotate(360deg);
+    transition: all ease 1.5s 0s;
+}
+.img-retry {
+    width: 27px;
+    height: 20px;
+}
+.coppied-background {
+    position: relative;
+    height: 0px;
+    top: 70px;
+}
+.coppied-info {
+    margin: auto;
+    height: 30px;
+    background: #F1F1F1;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 0px #000000;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    border: 7px solid rgb(225, 225, 225);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border-top: 7px solid rgb(200, 200, 200);
+    animation: rotate_image 0.5s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 97px auto 98px auto;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}

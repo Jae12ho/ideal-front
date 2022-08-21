@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "ONE-Mobile-Title";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.modal-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    position:relative;
+    width: 300px;
+    padding-bottom: 30px;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 10;
+    font-family: 'ONE-Mobile-Title';
+    color: #000000;
+    box-shadow: 5px 6px 1px #000000;
+}
+
+.modal-title-bar {
+    box-sizing: border-box;
+    background-color: #C0E8E9;
+    border-bottom: 2px solid black;
+    padding: 0px 13px 0px 13px;
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.circle {
+    width: 13px;
+    height: 13px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin-right: 6px;
+}
+.red {
+    background-color: #F2554B;
+}
+.yellow {
+    background-color: #FFCB66;
+}
+.green {
+    background-color: #A4D374;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-word {
+    margin: 15px;
+    padding: 4px 15px 4px 15px;
+    background: #F2FFFF;
+    border: 2px solid #000000;
+    border-radius: 26px;
+
+    font-size: 15px;
+}
+.modal-combination {
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.modal-explain {
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
