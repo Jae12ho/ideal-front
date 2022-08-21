@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ideal-front/static/css/main.4a1f56ad.css",
-    "main.js": "/ideal-front/static/js/main.ca6b71ce.js",
-    "static/js/787.91b4cfb9.chunk.js": "/ideal-front/static/js/787.91b4cfb9.chunk.js",
-    "index.html": "/ideal-front/index.html",
-    "main.4a1f56ad.css.map": "/ideal-front/static/css/main.4a1f56ad.css.map",
-    "main.ca6b71ce.js.map": "/ideal-front/static/js/main.ca6b71ce.js.map",
-    "787.91b4cfb9.chunk.js.map": "/ideal-front/static/js/787.91b4cfb9.chunk.js.map"
+    "main.css": "/static/css/main.4a1f56ad.css",
+    "main.js": "/static/js/main.07f2b3c2.js",
+    "static/js/787.91b4cfb9.chunk.js": "/static/js/787.91b4cfb9.chunk.js",
+    "index.html": "/index.html",
+    "main.4a1f56ad.css.map": "/static/css/main.4a1f56ad.css.map",
+    "main.07f2b3c2.js.map": "/static/js/main.07f2b3c2.js.map",
+    "787.91b4cfb9.chunk.js.map": "/static/js/787.91b4cfb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a1f56ad.css",
-    "static/js/main.ca6b71ce.js"
+    "static/js/main.07f2b3c2.js"
   ]
 }
