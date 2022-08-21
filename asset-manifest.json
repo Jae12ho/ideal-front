@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Jae12ho/ideal-front.git/static/css/main.4a1f56ad.css",
-    "main.js": "/Jae12ho/ideal-front.git/static/js/main.de3079aa.js",
-    "static/js/787.91b4cfb9.chunk.js": "/Jae12ho/ideal-front.git/static/js/787.91b4cfb9.chunk.js",
-    "index.html": "/Jae12ho/ideal-front.git/index.html",
-    "main.4a1f56ad.css.map": "/Jae12ho/ideal-front.git/static/css/main.4a1f56ad.css.map",
-    "main.de3079aa.js.map": "/Jae12ho/ideal-front.git/static/js/main.de3079aa.js.map",
-    "787.91b4cfb9.chunk.js.map": "/Jae12ho/ideal-front.git/static/js/787.91b4cfb9.chunk.js.map"
+    "main.css": "/Jae12ho/ideal-front/static/css/main.4a1f56ad.css",
+    "main.js": "/Jae12ho/ideal-front/static/js/main.1a023aef.js",
+    "static/js/787.91b4cfb9.chunk.js": "/Jae12ho/ideal-front/static/js/787.91b4cfb9.chunk.js",
+    "index.html": "/Jae12ho/ideal-front/index.html",
+    "main.4a1f56ad.css.map": "/Jae12ho/ideal-front/static/css/main.4a1f56ad.css.map",
+    "main.1a023aef.js.map": "/Jae12ho/ideal-front/static/js/main.1a023aef.js.map",
+    "787.91b4cfb9.chunk.js.map": "/Jae12ho/ideal-front/static/js/787.91b4cfb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a1f56ad.css",
-    "static/js/main.de3079aa.js"
+    "static/js/main.1a023aef.js"
   ]
 }
