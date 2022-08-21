@@ -27,7 +27,7 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
       nameMeaning: tmp
     }
 
-    axios.get('https://cors-anywhere.herokuapp.com/http://43.200.104.40/get', {
+    axios.get('http://43.200.104.40/get', {
       params: requestData
     }).then(res => {
       setResultList(res.data);
@@ -58,7 +58,7 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
           <button key={index} className="result-item" onClick={() => { handleModalOpen(index) }}>
             <div></div>
             <div style={{fontSize: e[0].length > 25 ? '13px' : '15px'}}>{e[0]}</div>
-            <button className="button-copy" onClick={handleCopy}><img className="img-copy" alt="copy" src="https://jae12ho.github.io/ideal-front/images/icons/copy.png" /></button>
+            <button className="button-copy" onClick={handleCopy}><img className="img-copy" alt="copy" src="http://ideal.p-e.kr/images/icons/copy.png" /></button>
           </button>
         ))
       }
@@ -68,7 +68,7 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
       <div className="button-container">
         <button className="button-tag purple" onClick={() => { setIsSubmitted(false); }}>HOME으로 돌아가기</button>
         <button className="button-retry" onClick={handleRetry}>
-          <img className="img-retry" alt="retry" src="https://jae12ho.github.io/ideal-front/images/icons/reset.png" />
+          <img className="img-retry" alt="retry" src="http://ideal.p-e.kr/images/icons/reset.png" />
         </button>
       </div>
 
