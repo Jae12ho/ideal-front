@@ -27,7 +27,7 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
       nameMeaning: tmp
     }
 
-    axios.get('http://43.200.104.40/get', {
+    axios.get('https://cors-anywhere.herokuapp.com/http://43.200.104.40/get', {
       params: requestData
     }).then(res => {
       setResultList(res.data);
