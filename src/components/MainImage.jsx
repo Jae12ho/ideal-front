@@ -3,12 +3,12 @@ import React from 'react'
 const MainImage = ({ isSubmitted }) => {
   return (
     <div className="mainImage">
-        <img className="logo" alt="logo" src="/images/logo/logo.png" />
+        <img className="logo" alt="logo" src="https://Jae12ho.github.io/ideal-front/images/logo/logo.png" />
         {isSubmitted && (
-            <img className="character" alt="character" src="/images/characters/result.gif" />
+            <img className="character" alt="character" src="https://Jae12ho.github.io/ideal-front/images/characters/result.gif" />
         )}
         {!isSubmitted && (
-            <img className="character" alt="character" src="/images/characters/home.gif" />
+            <img className="character" alt="character" src="https://Jae12ho.github.io/ideal-front/images/characters/home.gif" />
         )}
     </div>
   )
