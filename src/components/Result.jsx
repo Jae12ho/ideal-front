@@ -27,7 +27,7 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
       nameMeaning: tmp
     }
 
-    axios.get('http://13.125.84.215/get', {
+    axios.get('http://13.125.84.215:4000/get', {
       params: requestData
     }).then(res => {
       setResultList(res.data);
