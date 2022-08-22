@@ -1,8 +1,12 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Input = ({ setIsSubmitted, inputs, setInputs }) => {
   const [addedMeaning, setAddedMeaning] = useState(['']);
+
+  useEffect(() => {
+    setAddedMeaning(inputs.nameMeaning);
+  }, [])
 
   const addMeaning = () => {
     if (addedMeaning.length < 4) {
