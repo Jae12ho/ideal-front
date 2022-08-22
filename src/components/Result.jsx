@@ -48,13 +48,22 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
 
   const handleCopy = (e) => {
     const text = e.target.parentNode.parentNode.childNodes[1].innerHTML;
-    window.navigator.clipboard.writeText(text);
+    const tmp = document.querySelector('textarea');
+    tmp.value = text;
+
+    tmp.select();
+
+    document.execCommand('copy');
+
+    // window.navigator.clipboard.writeText(text);
     setIsCoppied(true);
-    setTimeout(() => { setIsCoppied(false) }, 1000);
+    
+    return setTimeout(() => { setIsCoppied(false); }, 1000);
   }
 
   return (
     <div className="input-container">
+      <textarea style={{ position: 'absolute', left: '-1000px' }}></textarea>
       <div className="result-title">ID 추천 (문구 고민 중...)</div>
       {isRes && resultList.map((e, index) => (
           <button key={index} className="result-item" onClick={() => { handleModalOpen(index) }}>
