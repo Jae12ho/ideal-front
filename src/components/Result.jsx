@@ -27,11 +27,13 @@ const Result = ({ setIsSubmitted, inputs, isModalOpen, setIsModalOpen }) => {
       nameMeaning: tmp
     }
 
-    axios.get('http://43.200.104.40/get', {
+    axios.get('http://13.125.84.215/get', {
       params: requestData
     }).then(res => {
       setResultList(res.data);
       setIsRes(true);
+    }).catch(res => {
+      console.log(res);
     })
   },[inputs, countRetry]);
 

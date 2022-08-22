@@ -25,7 +25,7 @@ const Input = ({ setIsSubmitted, inputs, setInputs }) => {
     setAddedMeaning(tmp);
     setInputs({
       ...inputs,
-      nameMeaning: addedMeaning
+      nameMeaning: tmp
     })
   }
 
