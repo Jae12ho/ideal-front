@@ -50,7 +50,7 @@ const Input = ({ setIsSubmitted, inputs, setInputs }) => {
       <div className="add-meaning-container">
         <div style={{ width: '85%' }}>
           {addedMeaning.map((e, index) => (
-            <input key={index} className="input-tag input-add-meaning" placeholder="빼어나다" name={index} value={addedMeaning[index]} onChange={handleArray}/>
+            <input key={index} className="input-tag input-add-meaning" placeholder="높을" name={index} value={addedMeaning[index]} onChange={handleArray}/>
           ))}
         </div>
         <button className="add-button" onClick={addMeaning}><div className="cross"></div></button>
